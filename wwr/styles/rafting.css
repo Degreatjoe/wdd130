@@ -48,7 +48,7 @@ footer a img {
     font-family: 'Arial', sans-serif;
     /* letter-spacing: 1px; */
     color: var(--accent2);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Client Information Section */
@@ -81,4 +81,8 @@ article p {
     line-height: 2;
     max-width: 88%;
     text-align: left;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
