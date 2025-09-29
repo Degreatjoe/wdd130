@@ -2,7 +2,7 @@
     --primary-color: #FFFFFF;
     --secondary-color: #000000;
     --accent1: #004085;
-    --accent2: #1863bf;
+    --accent2: slateblue;
 }
 *{
     margin: 0 auto;
@@ -42,7 +42,6 @@ header nav a:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    /* background-color: aliceblue; */
     padding: 20px;
     border: 2px solid lightgray;
     gap: 2px; /* Adds spacing between grid items */
