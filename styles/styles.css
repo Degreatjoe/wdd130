@@ -4,39 +4,53 @@
     box-sizing: border-box;
 }
 
+header, footer, .grid{
+    max-width: 840px;
+    margin:0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main{
+    grid-column: 2;
+}
+
+
 nav{
-    background-color: darkblue;
+    display: flex;
+    justify-content: space-around;
+    background-color: steelblue;
     padding: 10px;
-    height: 50px;
 }
  nav a {
+    font-size: large;
+    font-weight: 400;
     color: white;
-    padding: 20px;
+    padding: 10px;
+    text-decoration: none;
 }
 
 h1 {
     color: darkblue;
+    border-bottom: 4px solid lightgray;
+    margin-bottom: 12px;
 }
 
 main img{
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
+    margin: 4px;
     box-shadow: 0 0 30px gray;
     float: right;
 }
 
-p{
-    padding: 0;
-}
-
-main{
-    max-width: 80%;
-}
-
 aside{
-    width: 80%;
+    grid-column: 1;
+    grid-row: 1;
     color: black;
     position: relative;
 }
@@ -56,6 +70,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 24px;
 }
 
 /* Class Selectors */
