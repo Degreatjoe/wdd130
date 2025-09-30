@@ -16,7 +16,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background-color: steelblue;
+    background-color: var(--accent1);
     margin-bottom: 8px;
     margin-top: 0;
 }
