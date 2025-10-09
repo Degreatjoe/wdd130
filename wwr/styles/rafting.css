@@ -380,3 +380,108 @@ main{
   max-width: 400px;
   margin: 0 auto;
 }
+
+
+/* trips specific styling */
+/* CTA Section */
+.trip-cta {
+  background-color: var(--accent1);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+
+}
+
+.trip-cta h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.trip-cta p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+.trip-cta .trips-cta-button {
+  background-color: var(--accent2);
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.trip-cta .cta-button:hover {
+  background-color: #5a5dcf;
+}
+
+/* Trip Highlights Grid */
+.trip-highlights {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.trip-highlights h2 {
+  margin-bottom: 30px;
+  color: var(--accent2);
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.trip-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.trip-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Trip Table */
+.trip-table-section {
+  padding: 40px 20px;
+}
+
+.trip-table-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--accent2);
+}
+
+.trips-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  max-width: 900px;
+  font-size: 1rem;
+}
+
+.trips-table th,
+.trips-table td {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.trips-table thead {
+  background-color: var(--accent1);
+  color: white;
+}
+
+.trips-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
